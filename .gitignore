@@ -1,0 +1,33 @@
+# Root .gitignore for RAG_0808 Repository
+
+# Secrets, API Keys & Environment Files
+.env
+*.env
+.env.*
+*.key
+*.enc
+secret.key
+config/secret.key
+
+# Python Virtual Environment
+.venv/
+venv/
+ENV/
+env/
+
+# Python Cache & Compiled Files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+# Cache Data & Embeddings
+cache/
+*.pkl
+
+# IDE & System Files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

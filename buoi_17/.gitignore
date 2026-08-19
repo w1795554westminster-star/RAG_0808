@@ -1,0 +1,10 @@
+# Buổi 17 .gitignore
+.env
+*.env
+.env.*
+*.key
+*.enc
+secret.key
+config/
+__pycache__/
+.pytest_cache/

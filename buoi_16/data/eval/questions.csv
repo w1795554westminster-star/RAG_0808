@@ -1,0 +1,13 @@
+question_id,question,expected_chunk_id,query_type,note
+Q01,Phạm vi điều chỉnh của Thông tư 01/2014/TT-NHNN quy định giao nhận bảo quản tiền mặt,44209_chunk_002,EXACT_KEYWORD,Thông tư 01/2014/TT-NHNN Điều 1
+Q02,Quy định đóng gói tiền mặt 1.000 tờ thành 10 thếp tại Điều 4 Thông tư 01/2014/TT-NHNN,44209_chunk_007,EXACT_KEYWORD,Thông tư 01/2014/TT-NHNN Điều 4
+Q03,Phương tiện vận chuyển tiền mặt và tài sản quý phải là xe chuyên dùng theo Điều 50 Thông tư 01/2014/TT-NHNN,44209_chunk_067,EXACT_KEYWORD,Thông tư 01/2014/TT-NHNN Điều 50
+Q04,Quy định nguyên tắc hoạt động kiểm toán độc lập theo Luật 67/2011/QH12 tại Điều 8,26750_chunk_009,EXACT_KEYWORD,Luật 67/2011/QH12 Điều 8
+Q05,Trách nhiệm và quy trình bảo vệ an toàn cho xe chở tiền và tài sản quý trong ngành ngân hàng,44209_chunk_073,SEMANTIC,Thông tư 01/2014/TT-NHNN Điều 56
+Q06,Quy định về việc bảo mật chìa khóa cửa kho tiền và không giao chìa vào tay một người,44209_chunk_050,SEMANTIC,Thông tư 01/2014/TT-NHNN Điều 36
+Q07,Các loại tài sản tài chính bao gồm tiền mặt công cụ vốn chủ sở hữu của đơn vị khác,117310_chunk_003,SEMANTIC,Thông tư 117310 Điều 2
+Q08,Nghiêm cấm sao chụp chìa khóa cửa kho tiền và két sắt trong ngân hàng,44209_chunk_048,SEMANTIC,Thông tư 01/2014/TT-NHNN Điều 34
+Q09,Nhiệm vụ kiểm đếm đóng gói bốc xếp vận chuyển tiền mặt của kiểm ngân theo Điều 22 Thông tư 01/2014/TT-NHNN,44209_chunk_029,MIXED,Thông tư 01/2014/TT-NHNN Điều 22
+Q10,Hồ sơ đề nghị cấp Giấy phép đối với tổ chức tín dụng phi ngân hàng theo Điều 13,173460_chunk_015,MIXED,Thông tư 173460 Điều 13
+Q11,Đối tượng áp dụng và nghĩa vụ của kiểm toán viên hành nghề theo Luật 67/2011/QH12,26750_chunk_002,MIXED,Luật 67/2011/QH12 Điều 2
+Q12,Quy định về việc đóng gói niêm phong ngoại tệ và giấy tờ có giá theo Điều 6 Thông tư 01/2014/TT-NHNN,44209_chunk_009,MIXED,Thông tư 01/2014/TT-NHNN Điều 6

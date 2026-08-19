@@ -1,0 +1,31 @@
+{
+  "system": "RAG_Legal_RBAC",
+  "version": "1.0",
+  "roles": [
+    {
+      "name": "Admin",
+      "access_level": 4,
+      "description": "Quản trị viên hệ thống — Toàn quyền truy cập tất cả văn bản, quy định nội bộ và tài liệu bảo mật.",
+      "allowed_security_labels": ["PUBLIC", "INTERNAL", "RESTRICTED", "CONFIDENTIAL"]
+    },
+    {
+      "name": "Legal_Officer",
+      "access_level": 3,
+      "description": "Cán bộ Pháp chế — Truy cập văn bản công khai, quy định nội bộ và hướng dẫn tuân thủ.",
+      "allowed_security_labels": ["PUBLIC", "INTERNAL", "RESTRICTED"]
+    },
+    {
+      "name": "Bank_Staff",
+      "access_level": 2,
+      "description": "Nhân viên Ngân hàng — Truy cập văn bản công khai và quy trình nghiệp vụ nội bộ chuẩn.",
+      "allowed_security_labels": ["PUBLIC", "INTERNAL"]
+    },
+    {
+      "name": "Guest",
+      "access_level": 1,
+      "description": "Khách vãng lai / Công chúng — Chỉ truy cập các luật và thông tư công khai.",
+      "allowed_security_labels": ["PUBLIC"]
+    }
+  ],
+  "default_role": "Guest"
+}

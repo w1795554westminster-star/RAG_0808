@@ -1,0 +1,121 @@
+entity_id,original_name,canonical_name,entity_type,source,method,confidence,evidence
+ent_001,Quốc hội,Quốc hội,CoQuan,166170,Rule-based & Metadata Audit,0.95,QUỐC HỘI CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM Độc lập - Tự do - Hạnh p
+ent_002,Vương Đình Huệ,Vương Đình Huệ,NguoiKy,166170,Rule-based & Metadata Audit,0.95,/2023/QH15. CHỦ TỊCH QUỐC HỘI Vương Đình Huệ
+ent_003,1,1,DoiTuongApDung,166170,Rule-based & Metadata Audit,0.95,Đối tượng áp dụng 1
+ent_004,Tín dụng,Tín dụng,LinhVuc,166170,Rule-based & Metadata Audit,0.95,"động của chi nhánh ngân hàng nước ngoài; việc thành lập, hoạt động của văn phòng đại diệ"
+ent_005,Chính phủ,Chính phủ,CoQuan,112025,Rule-based & Metadata Audit,0.95,CHÍNH PHỦ CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM Độc lập – Tự do – Hạnh p
+ent_006,Nguyễn Xuân Phúc,Nguyễn Xuân Phúc,NguoiKy,112025,Rule-based & Metadata Audit,0.95,Ủ THỦ TƯỚNG CHÍNH PHỦ (Đã ký) Nguyễn Xuân Phúc
+ent_007,1,1,DoiTuongApDung,112025,Rule-based & Metadata Audit,0.95,đối tượng áp dụng 1
+ent_008,Tài chính - Ngân hàng,Tài chính - Ngân hàng,LinhVuc,112025,Rule-based & Metadata Audit,0.95,"ÀNH LUẬT KINH DOANH BẢO HIỂM VÀ LUẬT SỬA ĐỔI, BỔ SUNG MỘT SỐ ĐIỀU CỦA LUẬT KINH DOANH BẢ"
+ent_009,Ngân hàng Nhà nước Việt Nam,Ngân hàng Nhà nước Việt Nam,CoQuan,38128,Rule-based & Metadata Audit,0.95,NGÂN HÀNG NHÀ NƯỚC VIỆT NAM CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM Độc lậ
+ent_010,Đào Minh Tú,Đào Minh Tú,NguoiKy,38128,Rule-based & Metadata Audit,0.95,ỐNG ĐỐC PHÓ THỐNG ĐỐC (Đã ký) Đào Minh Tú
+ent_011,1,1,DoiTuongApDung,38128,Rule-based & Metadata Audit,0.95,Đối tượng áp dụng 1
+ent_012,Phát hành và kho quỹ,Phát hành và kho quỹ,LinhVuc,38128,Rule-based & Metadata Audit,0.95,NGÂN HÀNG NHÀ NƯỚC VIỆT NAM CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM Độc lậ
+ent_013,Quốc hội,Quốc hội,CoQuan,26750,Rule-based & Metadata Audit,0.95,QUỐC HỘI CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM Độc lập – Tự do – Hạnh p
+ent_014,Nguyễn Phú Trọng,Nguyễn Phú Trọng,NguoiKy,26750,Rule-based & Metadata Audit,0.95,11. CHỦ TỊCH QUỐC HỘI (Đã ký) Nguyễn Phú Trọng
+ent_015,"Luật này áp dụng đối với kiểm toán viên, kiểm toán viên hành nghề, doanh nghiệp kiểm toán, chi nhánh","Luật này áp dụng đối với kiểm toán viên, kiểm toán viên hành nghề, doanh nghiệp kiểm toán, chi nhánh",DoiTuongApDung,26750,Rule-based & Metadata Audit,0.95,"Đối tượng áp dụng Luật này áp dụng đối với kiểm toán viên, kiểm toán viên hành nghề, doanh nghiệp kiểm toán, chi nhánh doanh nghiệp kiểm toán nước ngo"
+ent_016,Tài chính - Ngân hàng,Tài chính - Ngân hàng,LinhVuc,26750,Rule-based & Metadata Audit,0.95,tra hoạt động thuộc lĩnh vực kiểm toán độc lập của tổ chức nghề nghiệp về kiểm toán; h)
+ent_017,Chính phủ,Chính phủ,CoQuan,163441,Rule-based & Metadata Audit,0.95,CHÍNH PHỦ _________ CỘNG HOÀ XÃ HỘI CHỦ NGHĨA VIỆT NAM Độc lập - Tự d
+ent_018,Lê Minh Khái,Lê Minh Khái,NguoiKy,163441,Rule-based & Metadata Audit,0.95,Ủ TƯỞNG PHÓ THỦ TƯỞNG (Đã ký) Lê Minh Khái CỘNG HOÀ XÃ HỘI CHỦ NGHĨA VIỆ
+ent_019,1,1,DoiTuongApDung,163441,Rule-based & Metadata Audit,0.95,Đối tượng áp dụng 1
+ent_020,Bảo hiểm,Bảo hiểm,LinhVuc,163441,Rule-based & Metadata Audit,0.95,của Luật Kinh doanh bảo hiểm __________ Căn cứ Luật Tổ chức Chính phủ ngày 19 tháng 6 nă
+ent_021,Chính phủ,Chính phủ,CoQuan,146468,Rule-based & Metadata Audit,0.95,CHÍNH PHỦ ------- CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM Độc lập - Tự do
+ent_022,Nguyễn Xuân Phúc,Nguyễn Xuân Phúc,NguoiKy,146468,Rule-based & Metadata Audit,0.95,. CHÍNH PHỦ THỦ TƯỚNG (đã ký) Nguyễn Xuân Phúc
+ent_023,"tổ chức, trừ trường hợp quy định tại khoản 3 và khoản 4 Điều 15, khoản 2 và khoản 4 Điều 30, khoản 3","tổ chức, trừ trường hợp quy định tại khoản 3 và khoản 4 Điều 15, khoản 2 và khoản 4 Điều 30, khoản 3",DoiTuongApDung,146468,Rule-based & Metadata Audit,0.95,"áp dụng đối với tổ chức, trừ trường hợp quy định tại khoản 3 và khoản 4 Điều 15, khoản 2 và khoản 4 Điều 30, khoản 3 và khoản 5 Điều 39 Nghị định này"
+ent_024,Chứng khoán,Chứng khoán,LinhVuc,146468,Rule-based & Metadata Audit,0.95,ạm hành chính trong lĩnh vực chứng khoán và thị trường chứng khoán Căn cứ Luật Tổ chức C
+ent_025,Ngân hàng Nhà nước Việt Nam,Ngân hàng Nhà nước Việt Nam,CoQuan,168220,Rule-based & Metadata Audit,0.95,NGÂN HÀNG NHÀ NƯỚC VIỆT NAM --------- CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT
+ent_026,Đào Minh Tú,Đào Minh Tú,NguoiKy,168220,Rule-based & Metadata Audit,0.95,ỐNG ĐỐC PHÓ THỐNG ĐỐC (Đã ký) Đào Minh Tú
+ent_027,1,1,DoiTuongApDung,168220,Rule-based & Metadata Audit,0.95,Đối tượng áp dụng 1
+ent_028,"Thanh tra, giám sát ngân hàng","Thanh tra, giám sát ngân hàng",LinhVuc,168220,Rule-based & Metadata Audit,0.95,NGÂN HÀNG NHÀ NƯỚC VIỆT NAM --------- CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT
+ent_029,Chính phủ,Chính phủ,CoQuan,133858,Rule-based & Metadata Audit,0.95,CHÍNH PHỦ CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM Độc lập – Tự do – Hạnh p
+ent_030,Nguyễn Xuân Phúc,Nguyễn Xuân Phúc,NguoiKy,133858,Rule-based & Metadata Audit,0.95,Ủ THỦ TƯỚNG CHÍNH PHỦ (Đã ký) Nguyễn Xuân Phúc
+ent_031,1,1,DoiTuongApDung,133858,Rule-based & Metadata Audit,0.95,Đối tượng áp dụng 1
+ent_032,Tài chính - Ngân hàng,Tài chính - Ngân hàng,LinhVuc,133858,Rule-based & Metadata Audit,0.95,ăn bản hướng dẫn do Ngân hàng Nhà nước ban hành. 4. Công tác kiểm toán nội bộ của Ngân hà
+ent_033,Ngân hàng Nhà nước Việt Nam,Ngân hàng Nhà nước Việt Nam,CoQuan,169221,Rule-based & Metadata Audit,0.95,NGÂN HÀNG NHÀ NƯỚC VIỆT NAM CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM Độc lậ
+ent_034,Phạm Thanh Hà,Phạm Thanh Hà,NguoiKy,169221,Rule-based & Metadata Audit,0.95,ỐNG ĐỐC PHÓ THỐNG ĐỐC (Đã ký) Phạm Thanh Hà
+ent_035,ngày thực hiện giao dịch,ngày thực hiện giao dịch,DoiTuongApDung,169221,Rule-based & Metadata Audit,0.95,áp dụng đối với ngày thực hiện giao dịch
+ent_036,Quản lý ngoại hối,Quản lý ngoại hối,LinhVuc,169221,Rule-based & Metadata Audit,0.95,NGÂN HÀNG NHÀ NƯỚC VIỆT NAM CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM Độc lậ
+ent_037,Chính phủ,Chính phủ,CoQuan,95652,Rule-based & Metadata Audit,0.95,CHÍNH PHỦ CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM Độc lập – Tự do – Hạnh p
+ent_038,Nguyễn Tấn Dũng,Nguyễn Tấn Dũng,NguoiKy,95652,Rule-based & Metadata Audit,0.95,Ủ THỦ TƯỚNG CHÍNH PHỦ (Đã ký) Nguyễn Tấn Dũng
+ent_039,1,1,DoiTuongApDung,95652,Rule-based & Metadata Audit,0.95,Đối tượng áp dụng 1
+ent_040,Tài chính - Ngân hàng,Tài chính - Ngân hàng,LinhVuc,95652,Rule-based & Metadata Audit,0.95,201 4; Căn cứ Luật Ngân hàng Nhà nước Việt Nam ngày 16 tháng 6 năm 2010; Căn cứ Luật Các
+ent_041,Bộ Tài chính,Bộ Tài chính,CoQuan,f69936f0-6937-11f1-a48d-29bc6b0fd706,Rule-based & Metadata Audit,0.95,áng 12 năm 2020 của Chính phủ quy định xử phạt vi phạm hành chính trong lĩnh vực chứng kh
+ent_042,Nguyễn Đức Chi,Nguyễn Đức Chi,NguoiKy,f69936f0-6937-11f1-a48d-29bc6b0fd706,Rule-based & Metadata Audit,0.95,5b). KT. BỘ TRƯỞNG THỨ TRƯỞNG Nguyễn Đức Chi
+ent_043,"tổ chức, trừ trường hợp quy định tại các khoản 3, 4 và 5 Điều 15, Khoản 2 Điều 30 Nghị định này quy","tổ chức, trừ trường hợp quy định tại các khoản 3, 4 và 5 Điều 15, Khoản 2 Điều 30 Nghị định này quy",DoiTuongApDung,f69936f0-6937-11f1-a48d-29bc6b0fd706,Rule-based & Metadata Audit,0.95,"áp dụng đối với tổ chức, trừ trường hợp quy định tại các khoản 3, 4 và 5 Điều 15, Khoản 2 Điều 30 Nghị định này quy định mức phạt tiền áp dụng đối với"
+ent_044,nan,nan,LinhVuc,f69936f0-6937-11f1-a48d-29bc6b0fd706,Rule-based & Metadata Audit,0.95,ạm hành chính trong lĩnh vực chứng khoán và thị trường chứng khoán Nghị định số 156/2020
+ent_045,Bộ Tài chính,Bộ Tài chính,CoQuan,30402,Rule-based & Metadata Audit,0.95,BỘ TÀI CHÍNH CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM Độc lập – Tự d
+ent_046,Trần Xuân Hà,Trần Xuân Hà,NguoiKy,30402,Rule-based & Metadata Audit,0.95,y./. KT. BỘ TRƯỞNG THỨ TRƯỞNG Trần Xuân Hà
+ent_047,1,1,DoiTuongApDung,30402,Rule-based & Metadata Audit,0.95,Đối tượng áp dụng 1
+ent_048,Quản lý dịch vụ tài chính và các quỹ tài chính,Quản lý dịch vụ tài chính và các quỹ tài chính,LinhVuc,30402,Rule-based & Metadata Audit,0.95,còn hoạt động trong lĩnh vực kiểm toán độc lập thì phải có Bản giải trình kèm theo các t
+ent_049,Ngân hàng Nhà nước Việt Nam,Ngân hàng Nhà nước Việt Nam,CoQuan,173460,Rule-based & Metadata Audit,0.95,NGÂN HÀNG NHÀ NƯỚC VIỆT NAM CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM Độc lậ
+ent_050,Đoàn Thái Sơn,Đoàn Thái Sơn,NguoiKy,173460,Rule-based & Metadata Audit,0.95,ỐNG ĐỐC PHÓ THỐNG ĐỐC (Đã ký) Đoàn Thái Sơn
+ent_051,1,1,DoiTuongApDung,173460,Rule-based & Metadata Audit,0.95,Đối tượng áp dụng 1
+ent_052,"Thanh tra, giám sát ngân hàng","Thanh tra, giám sát ngân hàng",LinhVuc,173460,Rule-based & Metadata Audit,0.95,NGÂN HÀNG NHÀ NƯỚC VIỆT NAM CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM Độc lậ
+ent_053,Ngân hàng Nhà nước Việt Nam,Ngân hàng Nhà nước Việt Nam,CoQuan,27257,Rule-based & Metadata Audit,0.95,NGÂN HÀNG NHÀ NƯỚC VIỆT NAM ------- CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NA
+ent_054,Trần Minh Tuấn,Trần Minh Tuấn,NguoiKy,27257,Rule-based & Metadata Audit,0.95,. KT. THỐNG ĐỐC PHÓ THỐNG ĐỐC Trần Minh Tuấn
+ent_055,1,1,DoiTuongApDung,27257,Rule-based & Metadata Audit,0.95,Đối tượng áp dụng 1
+ent_056,Tài chính - Ngân hàng,Tài chính - Ngân hàng,LinhVuc,27257,Rule-based & Metadata Audit,0.95,NGÂN HÀNG NHÀ NƯỚC VIỆT NAM ------- CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NA
+ent_057,Bộ Tài chính,Bộ Tài chính,CoQuan,143217,Rule-based & Metadata Audit,0.95,BỘ TÀI CHÍNH Số: 66/2020/TT-BTC BỘ TÀI CHÍNH Số: 66/2020/TT-BT
+ent_058,nan,nan,NguoiKy,143217,Rule-based & Metadata Audit,0.95,Tên người ký nan trong văn bản Thông tư số 66/2020/TT-BTC Ban hành Quy chế mẫu về kiểm toán nội bộ áp dụng cho doanh nghiệp.
+ent_059,1,1,DoiTuongApDung,143217,Rule-based & Metadata Audit,0.95,Đối tượng áp dụng 1
+ent_060,Quản lý Nhà nước & Pháp luật,Quản lý Nhà nước & Pháp luật,LinhVuc,143217,Rule-based & Metadata Audit,0.95,Văn bản thuộc lĩnh vực Quản lý Nhà nước & Pháp luật.
+ent_061,Ngân hàng Nhà nước Việt Nam,Ngân hàng Nhà nước Việt Nam,CoQuan,168859,Rule-based & Metadata Audit,0.95,NGÂN HÀNG NHÀ NƯỚC VIỆT NAM CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM Độc lậ
+ent_062,Đào Minh Tú,Đào Minh Tú,NguoiKy,168859,Rule-based & Metadata Audit,0.95,. kt. thống đốc PHÓ THỐNG ĐỐC Đào Minh Tú
+ent_063,1,1,DoiTuongApDung,168859,Rule-based & Metadata Audit,0.95,Đối tượng áp dụng 1
+ent_064,"Thanh tra, giám sát ngân hàng","Thanh tra, giám sát ngân hàng",LinhVuc,168859,Rule-based & Metadata Audit,0.95,NGÂN HÀNG NHÀ NƯỚC VIỆT NAM CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM Độc lậ
+ent_065,Bộ Tài chính,Bộ Tài chính,CoQuan,150974,Rule-based & Metadata Audit,0.95,BỘ TÀI CHÍNH CỘNG HOÀ XÃ HỘI CHỦ NGHĨA VIỆT NAM Độc lập - Tự d
+ent_066,Tạ Anh Tuấn,Tạ Anh Tuấn,NguoiKy,150974,Rule-based & Metadata Audit,0.95,BỘ TRƯỞNG THỨ TRƯỞNG (Đã ký) Tạ Anh Tuấn Phụ lục số I CHUẨN MỰC KIỂM T
+ent_067,1,1,DoiTuongApDung,150974,Rule-based & Metadata Audit,0.95,Đối tượng áp dụng 1
+ent_068,"Kế toán, kiểm toán","Kế toán, kiểm toán",LinhVuc,150974,Rule-based & Metadata Audit,0.95,m bảo liên quan đến lĩnh vực mà người phụ trách kiểm toán nội bộ kiêm nhiệm. 1120 - Tình
+ent_069,Ngân hàng Nhà nước Việt Nam,Ngân hàng Nhà nước Việt Nam,CoQuan,164719,Rule-based & Metadata Audit,0.95,NGÂN HÀNG NHÀ NƯỚC VIỆT NAM CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM Độc lậ
+ent_070,Đoàn Thái Sơn,Đoàn Thái Sơn,NguoiKy,164719,Rule-based & Metadata Audit,0.95,ỐNG ĐỐC PHÓ THỐNG ĐỐC (Đã ký) Đoàn Thái Sơn
+ent_071,"các doanh nghiệp không cung cấp Báo cáo tài chính cho ngân hàng, chi nhánh ngân hàng nước ngoài để t","các doanh nghiệp không cung cấp Báo cáo tài chính cho ngân hàng, chi nhánh ngân hàng nước ngoài để t",DoiTuongApDung,164719,Rule-based & Metadata Audit,0.95,"áp dụng đối với các doanh nghiệp không cung cấp Báo cáo tài chính cho ngân hàng, chi nhánh ngân hàng nước ngoài để tính các chỉ tiêu doanh thu, tỷ lệ"
+ent_072,"Thanh tra, giám sát ngân hàng","Thanh tra, giám sát ngân hàng",LinhVuc,164719,Rule-based & Metadata Audit,0.95,NGÂN HÀNG NHÀ NƯỚC VIỆT NAM CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM Độc lậ
+ent_073,Ngân hàng Nhà nước Việt Nam,Ngân hàng Nhà nước Việt Nam,CoQuan,173695,Rule-based & Metadata Audit,0.95,NGÂN HÀNG NHÀ NƯỚC VIỆT NAM CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM Độc lậ
+ent_074,Đoàn Thái Sơn,Đoàn Thái Sơn,NguoiKy,173695,Rule-based & Metadata Audit,0.95,ỐNG ĐỐC PHÓ THỐNG ĐỐC (Đã ký) Đoàn Thái Sơn
+ent_075,Thông tư này áp dụng đối với: 1,Thông tư này áp dụng đối với: 1,DoiTuongApDung,173695,Rule-based & Metadata Audit,0.95,Đối tượng áp dụng Thông tư này áp dụng đối với: 1
+ent_076,"Thanh tra, giám sát ngân hàng","Thanh tra, giám sát ngân hàng",LinhVuc,173695,Rule-based & Metadata Audit,0.95,NGÂN HÀNG NHÀ NƯỚC VIỆT NAM CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM Độc lậ
+ent_077,Ngân hàng Nhà nước Việt Nam,Ngân hàng Nhà nước Việt Nam,CoQuan,186482,Rule-based & Metadata Audit,0.95,NGÂN HÀNG NHÀ NƯỚC VIỆT NAM ------- CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NA
+ent_078,Đoàn Thái Sơn,Đoàn Thái Sơn,NguoiKy,186482,Rule-based & Metadata Audit,0.95,ỐNG ĐỐC PHÓ THỐNG ĐỐC (Đã ký) Đoàn Thái Sơn
+ent_079,tổ chức tín dụng phi ngân hàng nộp hồ sơ đề nghị vào năm thứ hai tính từ ngày khai trương hoạt động,tổ chức tín dụng phi ngân hàng nộp hồ sơ đề nghị vào năm thứ hai tính từ ngày khai trương hoạt động,DoiTuongApDung,186482,Rule-based & Metadata Audit,0.95,áp dụng đối với tổ chức tín dụng phi ngân hàng nộp hồ sơ đề nghị vào năm thứ hai tính từ ngày khai trương hoạt động
+ent_080,Cục An toàn hệ thống các tổ chức tín dụng,Cục An toàn hệ thống các tổ chức tín dụng,LinhVuc,186482,Rule-based & Metadata Audit,0.95,NGÂN HÀNG NHÀ NƯỚC VIỆT NAM ------- CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NA
+ent_081,Bộ Tài chính,Bộ Tài chính,CoQuan,112924,Rule-based & Metadata Audit,0.95,BỘ TÀI CHÍNH CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM Độc lập – Tự d
+ent_082,Trần Xuân Hà,Trần Xuân Hà,NguoiKy,112924,Rule-based & Metadata Audit,0.95,BỘ TRƯỞNG THỨ TRƯỞNG (Đã ký) Trần Xuân Hà
+ent_083,"Thông tư này áp dụng đối với tổ chức kinh doanh chứng khoán, quỹ đầu tư chứng khoán, công ty đầu tư","Thông tư này áp dụng đối với tổ chức kinh doanh chứng khoán, quỹ đầu tư chứng khoán, công ty đầu tư",DoiTuongApDung,112924,Rule-based & Metadata Audit,0.95,"Đối tượng áp dụng Thông tư này áp dụng đối với tổ chức kinh doanh chứng khoán, quỹ đầu tư chứng khoán, công ty đầu tư chứng khoán, doanh nghiệp kinh d"
+ent_084,Tài chính - Ngân hàng,Tài chính - Ngân hàng,LinhVuc,112924,Rule-based & Metadata Audit,0.95,H NGHIỆP KINH DOANH BẢO HIỂM Căn cứ Luật Đầu tư ngày 26 tháng 11 năm 2014; Căn cứ Luật C
+ent_085,Ngân hàng Nhà nước Việt Nam,Ngân hàng Nhà nước Việt Nam,CoQuan,174218,Rule-based & Metadata Audit,0.95,NGÂN HÀNG NHÀ NƯỚC VIỆT NAM CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM Độc lậ
+ent_086,Đoàn Thái Sơn,Đoàn Thái Sơn,NguoiKy,174218,Rule-based & Metadata Audit,0.95,ỐNG ĐỐC PHÓ THỐNG ĐỐC (Đã ký) Đoàn Thái Sơn
+ent_087,1,1,DoiTuongApDung,174218,Rule-based & Metadata Audit,0.95,Đối tượng áp dụng 1
+ent_088,"Thanh tra, giám sát ngân hàng","Thanh tra, giám sát ngân hàng",LinhVuc,174218,Rule-based & Metadata Audit,0.95,NGÂN HÀNG NHÀ NƯỚC VIỆT NAM CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM Độc lậ
+ent_089,Ngân hàng Nhà nước Việt Nam,Ngân hàng Nhà nước Việt Nam,CoQuan,186888,Rule-based & Metadata Audit,0.95,Document Content NGÂN HÀNG NHÀ NƯỚC VIỆT NAM _________ Số: 62/2025/TT-NHNN CỘNG HÒA XÃ
+ent_090,Đoàn Thái Sơn,Đoàn Thái Sơn,NguoiKy,186888,Rule-based & Metadata Audit,0.95,ỐNG ĐỐC PHÓ THỐNG ĐỐC (Đã ký) Đoàn Thái Sơn
+ent_091,1,1,DoiTuongApDung,186888,Rule-based & Metadata Audit,0.95,Đối tượng áp dụng 1
+ent_092,Cục An toàn hệ thống các tổ chức tín dụng,Cục An toàn hệ thống các tổ chức tín dụng,LinhVuc,186888,Rule-based & Metadata Audit,0.95,Document Content NGÂN HÀNG NHÀ NƯỚC VIỆT NAM _________ Số: 62/2025/TT-NHNN CỘNG HÒA XÃ
+ent_093,Ngân hàng Nhà nước Việt Nam,Ngân hàng Nhà nước Việt Nam,CoQuan,6e689cd0-6f81-11f1-94d6-fd5d6d5ff793,Rule-based & Metadata Audit,0.95,"ấy phép lần đầu của ngân hàng thương mại, chi nhánh ngân hàng nước ngoài, văn phòng đại d"
+ent_094,Đoàn Thái Sơn,Đoàn Thái Sơn,NguoiKy,6e689cd0-6f81-11f1-94d6-fd5d6d5ff793,Rule-based & Metadata Audit,0.95,6 KT. THỐNG ĐỐC PHÓ THỐNG ĐỐC Đoàn Thái Sơn
+ent_095,Thông tư này áp dụng đối với: 1,Thông tư này áp dụng đối với: 1,DoiTuongApDung,6e689cd0-6f81-11f1-94d6-fd5d6d5ff793,Rule-based & Metadata Audit,0.95,Đối tượng áp dụng Thông tư này áp dụng đối với: 1
+ent_096,nan,nan,LinhVuc,6e689cd0-6f81-11f1-94d6-fd5d6d5ff793,Rule-based & Metadata Audit,0.95,"ấy phép lần đầu của ngân hàng thương mại, chi nhánh ngân hàng nước ngoài, văn phòng đại d"
+ent_097,Ngân hàng Nhà nước Việt Nam,Ngân hàng Nhà nước Việt Nam,CoQuan,185630,Rule-based & Metadata Audit,0.95,NGÂN HÀNG NHÀ NƯỚC VIỆT NAM CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM Độc lậ
+ent_098,Đoàn Thái Sơn,Đoàn Thái Sơn,NguoiKy,185630,Rule-based & Metadata Audit,0.95,ỐNG ĐỐC PHÓ THỐNG ĐỐC (Đã ký) Đoàn Thái Sơn
+ent_099,"Các cơ quan, tổ chức, doanh nghiệp và cá nhân có liên quan","Các cơ quan, tổ chức, doanh nghiệp và cá nhân có liên quan",DoiTuongApDung,185630,Rule-based & Metadata Audit,0.95,"Văn bản Thông tư số 63/2025/TT-NHNN Sửa đổi, bổ sung một số điều của một số Thông tư về quỹ tín dụng nhân dân áp dụng cho các cơ quan, tổ chức và cá nhân có liên quan."
+ent_100,"Lao động, tiền lương, tiền công","Lao động, tiền lương, tiền công",LinhVuc,185630,Rule-based & Metadata Audit,0.95,NGÂN HÀNG NHÀ NƯỚC VIỆT NAM CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM Độc lậ
+ent_101,Ngân hàng Nhà nước Việt Nam,Ngân hàng Nhà nước Việt Nam,CoQuan,117310,Rule-based & Metadata Audit,0.95,NGÂN HÀNG NHÀ NƯỚC VIỆT NAM CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM Độc lậ
+ent_102,Nguyễn Đồng Tiến,Nguyễn Đồng Tiến,NguoiKy,117310,Rule-based & Metadata Audit,0.95,ỐNG ĐỐC PHÓ THỐNG ĐỐC (Đã ký) Nguyễn Đồng Tiến
+ent_103,1,1,DoiTuongApDung,117310,Rule-based & Metadata Audit,0.95,đối tượng áp dụng 1
+ent_104,"Thanh tra, giám sát ngân hàng","Thanh tra, giám sát ngân hàng",LinhVuc,117310,Rule-based & Metadata Audit,0.95,NGÂN HÀNG NHÀ NƯỚC VIỆT NAM CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM Độc lậ
+ent_105,Quốc hội,Quốc hội,CoQuan,166269,Rule-based & Metadata Audit,0.95,QUỐC HỘI CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM Độc lập – Tự do – Hạnh p
+ent_106,Vương Đình Huệ,Vương Đình Huệ,NguoiKy,166269,Rule-based & Metadata Audit,0.95,23. CHỦ TỊCH QUỐC HỘI (Đã ký) Vương Đình Huệ CHỦ TỊCH QUỐC HỘI (Đã ký) Vươ
+ent_107,1,1,DoiTuongApDung,166269,Rule-based & Metadata Audit,0.95,Đối tượng áp dụng 1
+ent_108,Tài chính - Ngân hàng,Tài chính - Ngân hàng,LinhVuc,166269,Rule-based & Metadata Audit,0.95,"óa, xã hội, bảo đảm an ninh chính trị, trật tự, an toàn xã hội, bảo vệ môi trường tại c"
+ent_109,Ngân hàng Nhà nước Việt Nam,Ngân hàng Nhà nước Việt Nam,CoQuan,177271,Rule-based & Metadata Audit,0.95,NGÂN HÀNG NHÀ NƯỚC VIỆT NAM CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM Độc lậ
+ent_110,Đoàn Thái Sơn,Đoàn Thái Sơn,NguoiKy,177271,Rule-based & Metadata Audit,0.95,ống đốc PHÓ THỐNG ĐỐC (Đã ký) Đoàn Thái Sơn
+ent_111,1,1,DoiTuongApDung,177271,Rule-based & Metadata Audit,0.95,Đối tượng áp dụng 1
+ent_112,Cục An toàn hệ thống các tổ chức tín dụng,Cục An toàn hệ thống các tổ chức tín dụng,LinhVuc,177271,Rule-based & Metadata Audit,0.95,NGÂN HÀNG NHÀ NƯỚC VIỆT NAM CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM Độc lậ
+ent_113,Ngân hàng Nhà nước Việt Nam,Ngân hàng Nhà nước Việt Nam,CoQuan,44209,Rule-based & Metadata Audit,0.95,NGÂN HÀNG NHÀ NƯỚC VIỆT NAM ------- CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NA
+ent_114,Đào Minh Tú,Đào Minh Tú,NguoiKy,44209,Rule-based & Metadata Audit,0.95,. KT. THỐNG ĐỐC PHÓ THỐNG ĐỐC Đào Minh Tú
+ent_115,1,1,DoiTuongApDung,44209,Rule-based & Metadata Audit,0.95,Đối tượng áp dụng 1
+ent_116,Phát hành và kho quỹ,Phát hành và kho quỹ,LinhVuc,44209,Rule-based & Metadata Audit,0.95,NGÂN HÀNG NHÀ NƯỚC VIỆT NAM ------- CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NA
+ent_117,Quốc hội,Quốc hội,CoQuan,25692,Rule-based & Metadata Audit,0.95,LUẬT Ngân hàng Nhà nước Việt Nam ________________ Căn cứ Hiến pháp nước Cộ
+ent_118,Nguyễn Phú Trọng,Nguyễn Phú Trọng,NguoiKy,25692,Rule-based & Metadata Audit,0.95,Tên người ký Nguyễn Phú Trọng trong văn bản Ngân hàng Nhà nước Việt Nam.
+ent_119,"Các cơ quan, tổ chức, doanh nghiệp và cá nhân có liên quan","Các cơ quan, tổ chức, doanh nghiệp và cá nhân có liên quan",DoiTuongApDung,25692,Rule-based & Metadata Audit,0.95,"Văn bản Ngân hàng Nhà nước Việt Nam áp dụng cho các cơ quan, tổ chức và cá nhân có liên quan."
+ent_120,nan,nan,LinhVuc,25692,Rule-based & Metadata Audit,0.95,LUẬT Ngân hàng Nhà nước Việt Nam ________________ Căn cứ Hiến pháp nước Cộ

@@ -1,0 +1,2 @@
+﻿gap_id,external_document_id,external_chunk_id,external_requirement,external_citation,internal_document_id,internal_chunk_id,internal_evidence,internal_citation,classification,reason,confidence,review_status,request_id
+GAP_DATA_INSUFFICIENT,N/A,N/A,Dữ liệu nguồn khuyết thiếu tập dữ liệu INTERNAL_POLICY,N/A,N/A,N/A,N/A,N/A,CHUA_DU_BANG_CHUNG,DATA GAP: INTERNAL POLICY NOT FOUND trong corpus. Không kết luận compliance.,0.0,NEEDS_HUMAN_REVIEW,6a34976a-8964-4214-a26a-46ed3c9791d9

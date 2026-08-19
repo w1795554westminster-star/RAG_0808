@@ -1,0 +1,3 @@
+{"timestamp": "2026-08-21T20:30:00Z", "user_role": "Staff", "question": "Quy trình vận chuyển tiền mặt", "accessed_chunk": "44209_chunk_021", "access_decision": "GRANTED"}
+{"timestamp": "2026-08-21T20:31:15Z", "user_role": "Guest", "question": "Quy trình vận chuyển tiền mặt", "accessed_chunk": "44209_chunk_021", "access_decision": "DENIED_RBAC"}
+{"timestamp": "2026-08-21T20:32:05Z", "user_role": "Risk_Manager", "question": "Nội quy kho tiền", "accessed_chunk": "44209_chunk_043", "access_decision": "GRANTED"}

@@ -1,0 +1,49 @@
+question_id,config,query_type,question,expected_chunk_id,found_rank,top1_retrieved_id,hit_1,hit_3,hit_5,mrr
+Q01,BM25-only,EXACT_KEYWORD,Phạm vi điều chỉnh của Thông tư 01/2014/TT-NHNN quy định giao nhận bảo quản tiền mặt,44209_chunk_002,1,44209_chunk_002,1.0,1.0,1.0,1.0
+Q02,BM25-only,EXACT_KEYWORD,Quy định đóng gói tiền mặt 1.000 tờ thành 10 thếp tại Điều 4 Thông tư 01/2014/TT-NHNN,44209_chunk_007,1,44209_chunk_007,1.0,1.0,1.0,1.0
+Q03,BM25-only,EXACT_KEYWORD,Phương tiện vận chuyển tiền mặt và tài sản quý phải là xe chuyên dùng theo Điều 50 Thông tư 01/2014/TT-NHNN,44209_chunk_067,1,44209_chunk_067,1.0,1.0,1.0,1.0
+Q04,BM25-only,EXACT_KEYWORD,Quy định nguyên tắc hoạt động kiểm toán độc lập theo Luật 67/2011/QH12 tại Điều 8,26750_chunk_009,1,26750_chunk_009,1.0,1.0,1.0,1.0
+Q05,BM25-only,SEMANTIC,Trách nhiệm và quy trình bảo vệ an toàn cho xe chở tiền và tài sản quý trong ngành ngân hàng,44209_chunk_073,1,44209_chunk_073,1.0,1.0,1.0,1.0
+Q06,BM25-only,SEMANTIC,Quy định về việc bảo mật chìa khóa cửa kho tiền và không giao chìa vào tay một người,44209_chunk_050,1,44209_chunk_050,1.0,1.0,1.0,1.0
+Q07,BM25-only,SEMANTIC,Các loại tài sản tài chính bao gồm tiền mặt công cụ vốn chủ sở hữu của đơn vị khác,117310_chunk_003,Not in Top K,117310_chunk_004,0.0,0.0,0.0,0.0
+Q08,BM25-only,SEMANTIC,Nghiêm cấm sao chụp chìa khóa cửa kho tiền và két sắt trong ngân hàng,44209_chunk_048,1,44209_chunk_048,1.0,1.0,1.0,1.0
+Q09,BM25-only,MIXED,Nhiệm vụ kiểm đếm đóng gói bốc xếp vận chuyển tiền mặt của kiểm ngân theo Điều 22 Thông tư 01/2014/TT-NHNN,44209_chunk_029,1,44209_chunk_029,1.0,1.0,1.0,1.0
+Q10,BM25-only,MIXED,Hồ sơ đề nghị cấp Giấy phép đối với tổ chức tín dụng phi ngân hàng theo Điều 13,173460_chunk_015,Not in Top K,173460_chunk_025,0.0,0.0,0.0,0.0
+Q11,BM25-only,MIXED,Đối tượng áp dụng và nghĩa vụ của kiểm toán viên hành nghề theo Luật 67/2011/QH12,26750_chunk_002,Not in Top K,26750_chunk_003,0.0,0.0,0.0,0.0
+Q12,BM25-only,MIXED,Quy định về việc đóng gói niêm phong ngoại tệ và giấy tờ có giá theo Điều 6 Thông tư 01/2014/TT-NHNN,44209_chunk_009,1,44209_chunk_009,1.0,1.0,1.0,1.0
+Q01,Dense-only,EXACT_KEYWORD,Phạm vi điều chỉnh của Thông tư 01/2014/TT-NHNN quy định giao nhận bảo quản tiền mặt,44209_chunk_002,Not in Top K,44209_chunk_063,0.0,0.0,0.0,0.0
+Q02,Dense-only,EXACT_KEYWORD,Quy định đóng gói tiền mặt 1.000 tờ thành 10 thếp tại Điều 4 Thông tư 01/2014/TT-NHNN,44209_chunk_007,4,44209_chunk_006,0.0,0.0,1.0,0.25
+Q03,Dense-only,EXACT_KEYWORD,Phương tiện vận chuyển tiền mặt và tài sản quý phải là xe chuyên dùng theo Điều 50 Thông tư 01/2014/TT-NHNN,44209_chunk_067,Not in Top K,44209_chunk_075,0.0,0.0,0.0,0.0
+Q04,Dense-only,EXACT_KEYWORD,Quy định nguyên tắc hoạt động kiểm toán độc lập theo Luật 67/2011/QH12 tại Điều 8,26750_chunk_009,Not in Top K,26750_chunk_048,0.0,0.0,0.0,0.0
+Q05,Dense-only,SEMANTIC,Trách nhiệm và quy trình bảo vệ an toàn cho xe chở tiền và tài sản quý trong ngành ngân hàng,44209_chunk_073,Not in Top K,44209_chunk_062,0.0,0.0,0.0,0.0
+Q06,Dense-only,SEMANTIC,Quy định về việc bảo mật chìa khóa cửa kho tiền và không giao chìa vào tay một người,44209_chunk_050,1,44209_chunk_050,1.0,1.0,1.0,1.0
+Q07,Dense-only,SEMANTIC,Các loại tài sản tài chính bao gồm tiền mặt công cụ vốn chủ sở hữu của đơn vị khác,117310_chunk_003,Not in Top K,117310_chunk_004,0.0,0.0,0.0,0.0
+Q08,Dense-only,SEMANTIC,Nghiêm cấm sao chụp chìa khóa cửa kho tiền và két sắt trong ngân hàng,44209_chunk_048,2,44209_chunk_043,0.0,1.0,1.0,0.5
+Q09,Dense-only,MIXED,Nhiệm vụ kiểm đếm đóng gói bốc xếp vận chuyển tiền mặt của kiểm ngân theo Điều 22 Thông tư 01/2014/TT-NHNN,44209_chunk_029,1,44209_chunk_029,1.0,1.0,1.0,1.0
+Q10,Dense-only,MIXED,Hồ sơ đề nghị cấp Giấy phép đối với tổ chức tín dụng phi ngân hàng theo Điều 13,173460_chunk_015,5,173460_chunk_025,0.0,0.0,1.0,0.2
+Q11,Dense-only,MIXED,Đối tượng áp dụng và nghĩa vụ của kiểm toán viên hành nghề theo Luật 67/2011/QH12,26750_chunk_002,3,26750_chunk_019,0.0,1.0,1.0,0.3333
+Q12,Dense-only,MIXED,Quy định về việc đóng gói niêm phong ngoại tệ và giấy tờ có giá theo Điều 6 Thông tư 01/2014/TT-NHNN,44209_chunk_009,1,44209_chunk_009,1.0,1.0,1.0,1.0
+Q01,Hybrid (RRF),EXACT_KEYWORD,Phạm vi điều chỉnh của Thông tư 01/2014/TT-NHNN quy định giao nhận bảo quản tiền mặt,44209_chunk_002,Not in Top K,44209_chunk_062,0.0,0.0,0.0,0.0
+Q02,Hybrid (RRF),EXACT_KEYWORD,Quy định đóng gói tiền mặt 1.000 tờ thành 10 thếp tại Điều 4 Thông tư 01/2014/TT-NHNN,44209_chunk_007,1,44209_chunk_007,1.0,1.0,1.0,1.0
+Q03,Hybrid (RRF),EXACT_KEYWORD,Phương tiện vận chuyển tiền mặt và tài sản quý phải là xe chuyên dùng theo Điều 50 Thông tư 01/2014/TT-NHNN,44209_chunk_067,4,44209_chunk_075,0.0,0.0,1.0,0.25
+Q04,Hybrid (RRF),EXACT_KEYWORD,Quy định nguyên tắc hoạt động kiểm toán độc lập theo Luật 67/2011/QH12 tại Điều 8,26750_chunk_009,2,26750_chunk_002,0.0,1.0,1.0,0.5
+Q05,Hybrid (RRF),SEMANTIC,Trách nhiệm và quy trình bảo vệ an toàn cho xe chở tiền và tài sản quý trong ngành ngân hàng,44209_chunk_073,4,44209_chunk_072,0.0,0.0,1.0,0.25
+Q06,Hybrid (RRF),SEMANTIC,Quy định về việc bảo mật chìa khóa cửa kho tiền và không giao chìa vào tay một người,44209_chunk_050,1,44209_chunk_050,1.0,1.0,1.0,1.0
+Q07,Hybrid (RRF),SEMANTIC,Các loại tài sản tài chính bao gồm tiền mặt công cụ vốn chủ sở hữu của đơn vị khác,117310_chunk_003,Not in Top K,117310_chunk_004,0.0,0.0,0.0,0.0
+Q08,Hybrid (RRF),SEMANTIC,Nghiêm cấm sao chụp chìa khóa cửa kho tiền và két sắt trong ngân hàng,44209_chunk_048,2,44209_chunk_043,0.0,1.0,1.0,0.5
+Q09,Hybrid (RRF),MIXED,Nhiệm vụ kiểm đếm đóng gói bốc xếp vận chuyển tiền mặt của kiểm ngân theo Điều 22 Thông tư 01/2014/TT-NHNN,44209_chunk_029,1,44209_chunk_029,1.0,1.0,1.0,1.0
+Q10,Hybrid (RRF),MIXED,Hồ sơ đề nghị cấp Giấy phép đối với tổ chức tín dụng phi ngân hàng theo Điều 13,173460_chunk_015,Not in Top K,173460_chunk_025,0.0,0.0,0.0,0.0
+Q11,Hybrid (RRF),MIXED,Đối tượng áp dụng và nghĩa vụ của kiểm toán viên hành nghề theo Luật 67/2011/QH12,26750_chunk_002,4,26750_chunk_003,0.0,0.0,1.0,0.25
+Q12,Hybrid (RRF),MIXED,Quy định về việc đóng gói niêm phong ngoại tệ và giấy tờ có giá theo Điều 6 Thông tư 01/2014/TT-NHNN,44209_chunk_009,1,44209_chunk_009,1.0,1.0,1.0,1.0
+Q01,Hybrid + Rerank,EXACT_KEYWORD,Phạm vi điều chỉnh của Thông tư 01/2014/TT-NHNN quy định giao nhận bảo quản tiền mặt,44209_chunk_002,3,44209_chunk_062,0.0,1.0,1.0,0.3333
+Q02,Hybrid + Rerank,EXACT_KEYWORD,Quy định đóng gói tiền mặt 1.000 tờ thành 10 thếp tại Điều 4 Thông tư 01/2014/TT-NHNN,44209_chunk_007,1,44209_chunk_007,1.0,1.0,1.0,1.0
+Q03,Hybrid + Rerank,EXACT_KEYWORD,Phương tiện vận chuyển tiền mặt và tài sản quý phải là xe chuyên dùng theo Điều 50 Thông tư 01/2014/TT-NHNN,44209_chunk_067,1,44209_chunk_067,1.0,1.0,1.0,1.0
+Q04,Hybrid + Rerank,EXACT_KEYWORD,Quy định nguyên tắc hoạt động kiểm toán độc lập theo Luật 67/2011/QH12 tại Điều 8,26750_chunk_009,1,26750_chunk_009,1.0,1.0,1.0,1.0
+Q05,Hybrid + Rerank,SEMANTIC,Trách nhiệm và quy trình bảo vệ an toàn cho xe chở tiền và tài sản quý trong ngành ngân hàng,44209_chunk_073,2,44209_chunk_067,0.0,1.0,1.0,0.5
+Q06,Hybrid + Rerank,SEMANTIC,Quy định về việc bảo mật chìa khóa cửa kho tiền và không giao chìa vào tay một người,44209_chunk_050,1,44209_chunk_050,1.0,1.0,1.0,1.0
+Q07,Hybrid + Rerank,SEMANTIC,Các loại tài sản tài chính bao gồm tiền mặt công cụ vốn chủ sở hữu của đơn vị khác,117310_chunk_003,Not in Top K,117310_chunk_004,0.0,0.0,0.0,0.0
+Q08,Hybrid + Rerank,SEMANTIC,Nghiêm cấm sao chụp chìa khóa cửa kho tiền và két sắt trong ngân hàng,44209_chunk_048,2,44209_chunk_051,0.0,1.0,1.0,0.5
+Q09,Hybrid + Rerank,MIXED,Nhiệm vụ kiểm đếm đóng gói bốc xếp vận chuyển tiền mặt của kiểm ngân theo Điều 22 Thông tư 01/2014/TT-NHNN,44209_chunk_029,1,44209_chunk_029,1.0,1.0,1.0,1.0
+Q10,Hybrid + Rerank,MIXED,Hồ sơ đề nghị cấp Giấy phép đối với tổ chức tín dụng phi ngân hàng theo Điều 13,173460_chunk_015,Not in Top K,173460_chunk_025,0.0,0.0,0.0,0.0
+Q11,Hybrid + Rerank,MIXED,Đối tượng áp dụng và nghĩa vụ của kiểm toán viên hành nghề theo Luật 67/2011/QH12,26750_chunk_002,Not in Top K,26750_chunk_053,0.0,0.0,0.0,0.0
+Q12,Hybrid + Rerank,MIXED,Quy định về việc đóng gói niêm phong ngoại tệ và giấy tờ có giá theo Điều 6 Thông tư 01/2014/TT-NHNN,44209_chunk_009,1,44209_chunk_009,1.0,1.0,1.0,1.0
