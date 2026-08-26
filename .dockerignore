@@ -1,0 +1,13 @@
+.venv
+.git
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+.env
+RAG
+buoi_14
+outputs
+scratch
+ner_kb
+*.csv
