@@ -3,28 +3,82 @@ import sys
 import json
 import pandas as pd
 
-# Add parent directory and buoi_16 to path
+# Path setup
 current_dir = os.path.dirname(os.path.abspath(__file__))
-buoi17_dir = os.path.dirname(current_dir)
+buoi17_dir = os.path.dirname(current_dir) if os.path.basename(current_dir) == "scripts" else current_dir
 base_dir = os.path.dirname(buoi17_dir)
 
 buoi16_path = os.path.join(base_dir, "buoi_16")
-if buoi16_path not in sys.path:
+if os.path.exists(buoi16_path) and buoi16_path not in sys.path:
     sys.path.insert(0, buoi16_path)
 
-from src.secure_retriever import SecureRetriever, is_role_authorized
+def is_role_authorized(allowed_roles_raw, user_roles):
+    """
+    Checks if any role in user_roles is allowed.
+    """
+    if "Admin" in user_roles or "Admin" in (user_roles if isinstance(user_roles, list) else [user_roles]):
+        return True
+    if not allowed_roles_raw:
+        return True
+    if isinstance(allowed_roles_raw, str):
+        try:
+            allowed_roles = json.loads(allowed_roles_raw)
+        except Exception:
+            allowed_roles = [allowed_roles_raw]
+    else:
+        allowed_roles = list(allowed_roles_raw)
+    
+    return any(r in allowed_roles for r in user_roles)
+
+try:
+    from src.secure_retriever import SecureRetriever
+except ImportError:
+    class SecureRetriever:
+        """Standalone fallback SecureRetriever when buoi_16 is not present (e.g. inside Docker container)."""
+        def __init__(self, df_corpus):
+            self.df_corpus = df_corpus
+
+        def retrieve(self, question: str, user_roles: list, method: str = "hybrid_rerank", top_k: int = 5, candidate_k: int = 20):
+            total_corpus_size = len(self.df_corpus)
+            authorized_rows = []
+            filtered_out = 0
+
+            for _, row in self.df_corpus.iterrows():
+                allowed = row.get("allowed_roles", "[]")
+                if is_role_authorized(allowed, user_roles):
+                    authorized_rows.append(row.to_dict())
+                else:
+                    filtered_out += 1
+
+            if not authorized_rows:
+                return [], filtered_out
+
+            q_tokens = [w.lower() for w in question.split() if len(w) > 1]
+            results = []
+            for row in authorized_rows:
+                text = str(row.get("text", "")) + " " + str(row.get("title", "")) + " " + str(row.get("citation", ""))
+                text_low = text.lower()
+                
+                score = sum(1.0 for tok in q_tokens if tok in text_low)
+                row_dict = dict(row)
+                row_dict["score"] = score
+                results.append(row_dict)
+
+            results.sort(key=lambda x: x["score"], reverse=True)
+            top_results = results[:top_k]
+            return top_results, filtered_out
+
 
 class SecureRetrievalAdapter:
     """
-    Adapter pattern wrapper around Buổi 16 SecureRetriever.
-    Does NOT implement new search algorithms.
-    Standardizes output format into clean, uniform schema for Buổi 17.
+    Adapter pattern wrapper around SecureRetriever.
+    Standardizes output format into clean, uniform schema.
     """
     def __init__(self, csv_path: str = None):
         if csv_path is None:
-            csv_path = os.path.join(base_dir, "buoi_16", "data", "processed", "chunks_secure.csv")
+            csv_path = os.path.join(buoi17_dir, "data", "chunks_combined_secure.csv")
             if not os.path.exists(csv_path):
-                csv_path = os.path.join(buoi17_dir, "data", "chunks_combined_secure.csv")
+                csv_path = os.path.join(base_dir, "buoi_16", "data", "processed", "chunks_secure.csv")
                 
         self.csv_path = csv_path
         self.df_corpus = pd.read_csv(self.csv_path, dtype=str)
@@ -33,13 +87,6 @@ class SecureRetrievalAdapter:
     def retrieve(self, question: str, user_roles: list, method: str = "hybrid_rerank", top_k: int = 5, candidate_k: int = 20) -> dict:
         """
         Unified retrieval call wrapper.
-        Returns dict containing:
-          - query: str
-          - user_roles: list
-          - total_corpus_size: int
-          - authorized_corpus_size: int
-          - total_filtered_out: int
-          - results: list of standardized chunk dicts
         """
         raw_results, total_filtered_out = self.retriever.retrieve(
             question=question,
@@ -53,7 +100,6 @@ class SecureRetrievalAdapter:
         for idx, item in enumerate(raw_results, start=1):
             chunk_id = item.get('chunk_id', '')
             
-            # Lookup row metadata in df_corpus for fields like title, article
             matched_rows = self.df_corpus[self.df_corpus['chunk_id'] == chunk_id]
             if not matched_rows.empty:
                 row = matched_rows.iloc[0]
@@ -65,13 +111,11 @@ class SecureRetrievalAdapter:
                 article = item.get('article', 'N/A')
                 so_ky_hieu = ''
 
-            # Generate or preserve citation
             citation = item.get('citation')
             if not citation or citation == 'N/A':
                 doc_id = item.get('document_id', '')
                 citation = f"[{title} | {so_ky_hieu} | {article} | {chunk_id}]"
 
-            # Standardize roles format
             allowed_roles_raw = item.get('allowed_roles', [])
             if isinstance(allowed_roles_raw, str):
                 try:
@@ -114,6 +158,3 @@ if __name__ == '__main__':
     print(f"Query: {res['query']}")
     print(f"Roles: {res['user_roles']}")
     print(f"Results count: {len(res['results'])}")
-    if res['results']:
-        print("Sample standardized output keys:", list(res['results'][0].keys()))
-        print("Sample item:", res['results'][0])

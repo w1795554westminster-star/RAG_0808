@@ -18,7 +18,9 @@ base_dir = os.path.dirname(buoi17_dir)
 dotenv.load_dotenv(os.path.join(buoi17_dir, ".env"))
 dotenv.load_dotenv(os.path.join(base_dir, ".env"))
 
-sys.path.append(buoi17_dir)
+if current_dir not in sys.path:
+    sys.path.insert(0, current_dir)
+
 try:
     from scripts.secure_retrieval_adapter import SecureRetrievalAdapter
     from scripts.audit_logger import log_audit_trail
